@@ -1,0 +1,71 @@
+{
+    "technologies": [
+        {
+            "name": "Frontend",
+            "items": [
+                {
+                    "icon": "html5.svg",
+                    "name": "HTML5"
+                },
+                {
+                    "icon": "css3.svg",
+                    "name": "CSS3"
+                },
+                {
+                    "icon": "javascript.svg",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "typescript.svg",
+                    "name": "TypeScript"
+                },
+                {
+                    "icon": "react.svg",
+                    "name": "ReactJS"
+                },
+                {
+                    "icon": "nextjs.svg",
+                    "name": "NextJS"
+                },
+                {
+                    "icon": "tailwindcss.svg",
+                    "name": "TailwindCSS"
+                },
+                {
+                    "icon": "astro.svg",
+                    "name": "Astro.js"
+                }
+            ]
+        },
+        {
+            "name": "Backend",
+            "items": [
+                {
+                    "icon": "laravel.svg",
+                    "name": "Laravel"
+                },
+                {
+                    "icon": "mysql.svg",
+                    "name": "MySQL"
+                },
+                {
+                    "icon": "prisma.svg",
+                    "name": "Prisma"
+                }
+            ]
+        },
+        {
+            "name": "Tools",
+            "items": [
+                {
+                    "icon": "vscode.svg",
+                    "name": "VS Code"
+                },
+                {
+                    "icon": "git.svg",
+                    "name": "Git"
+                }
+            ]
+        }
+    ]
+}
