@@ -16,7 +16,7 @@ export default function TechnologyTab({ technologies }: Props) {
         return <MenuButton handler={() => menuSelected.set(item.name)} name={item.name} key={item.name} selected={$menuSelected} />
     })
 
-    return <div className="text-sm mt-6 space-x-3">
+    return <div className="text-sm mt-6 space-x-3 md:text-[0.84rem]">
         {Menus}
     </div>
 }

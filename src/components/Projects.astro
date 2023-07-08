@@ -1,26 +1,43 @@
 ---
+import { Icon } from "astro-icon";
 import SectionTitle from "./SectionTitle.astro";
 ---
 
-<div class="mt-12 space-y-8">
+<div class="mt-12 md:mt-10 space-y-8">
     <SectionTitle title="Projects" />
 
     <div class="grid grid-cols-3 gap-8">
-        <a class="space-y-2 flex flex-col rounded">
+        <a class="space-y-2.5 flex flex-col rounded">
             <h3 class="text-sm underline underline-offset-4">CyClick</h3>
             <p class="text-xs">App that lets you record your travel.</p>
+            <div class="flex space-x-2">
+                <Icon name="github" class="w-5 h-5" />
+                <Icon name="ph:link-bold" class="w-5 h-5" />
+            </div>
         </a>
-        <a class="space-y-2 flex flex-col rounded">
+        <a class="space-y-2.5 flex flex-col rounded">
             <h3 class="text-sm underline underline-offset-4">jjdluciano</h3>
             <p class="text-xs">My personal portfolio.</p>
+            <div class="flex space-x-2">
+                <Icon name="github" class="w-5 h-5" />
+                <Icon name="ph:link-bold" class="w-5 h-5" />
+            </div>
         </a>
-        <a class="space-y-2 flex flex-col rounded">
+        <a class="space-y-2.5 flex flex-col rounded">
             <h3 class="text-sm underline underline-offset-4">Netflix clone</h3>
             <p class="text-xs">My personal portfolio.</p>
+            <div class="flex space-x-2">
+                <Icon name="github" class="w-5 h-5" />
+                <Icon name="ph:link-bold" class="w-5 h-5" />
+            </div>
         </a>
         <a class="space-y-2 flex flex-col rounded">
             <h3 class="text-sm underline underline-offset-4">Polly</h3>
             <p class="text-xs">My personal portfolio.</p>
+            <div class="flex space-x-2">
+                <Icon name="github" class="w-5 h-5" />
+                <Icon name="ph:link-bold" class="w-5 h-5" />
+            </div>
         </a>
     </div>
 </div>

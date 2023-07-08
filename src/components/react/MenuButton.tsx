@@ -7,10 +7,6 @@ export default function MenuButton({ name, handler, selected }: Props) {
     return <button
         onClick={handler}
         id="tab-button"
-        // ${index == idx
-        // ? "text-neutral-200 underline underline-offset-4"
-        // : "text-neutral-400"
-        // }`
         className={`tracking-wide ${selected == name ? "text-neutral-200 underline underline-offset-4" : "text-neutral-400"}`}
     >
         {name}
