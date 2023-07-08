@@ -1,0 +1,15 @@
+---
+import { technologies } from "../data/technologies.json";
+import SectionTitle from "../components/SectionTitle.astro";
+import { Icon } from "astro-icon";
+import TechnologyTab from "./react/TechnologyTab";
+import TechDisplay from "./react/TechDisplay";
+---
+
+<div class="mt-12">
+    <SectionTitle title="Technologies" />
+    <!-- section tabs -->
+    <TechnologyTab client:load technologies={technologies} />
+    <!-- tech display -->
+    <TechDisplay client:load />
+</div>
